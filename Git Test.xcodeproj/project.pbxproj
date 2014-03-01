@@ -21,6 +21,7 @@
 		209774DC18C26159005B8C68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209774BE18C26159005B8C68 /* UIKit.framework */; };
 		209774E418C26159005B8C68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209774E218C26159005B8C68 /* InfoPlist.strings */; };
 		209774E618C26159005B8C68 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 209774E518C26159005B8C68 /* Git_TestTests.m */; };
+		209774F118C26B0B005B8C68 /* MWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 209774F018C26B0B005B8C68 /* MWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		209774E118C26159005B8C68 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		209774E318C26159005B8C68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		209774E518C26159005B8C68 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		209774EF18C26B0B005B8C68 /* MWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTest.h; sourceTree = "<group>"; };
+		209774F018C26B0B005B8C68 /* MWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		209774AE18C26158005B8C68 = {
 			isa = PBXGroup;
 			children = (
+				209774EF18C26B0B005B8C68 /* MWTest.h */,
+				209774F018C26B0B005B8C68 /* MWTest.m */,
 				209774C018C26159005B8C68 /* Git Test */,
 				209774DF18C26159005B8C68 /* Git TestTests */,
 				209774B918C26159005B8C68 /* Frameworks */,
@@ -253,6 +258,7 @@
 				209774CB18C26159005B8C68 /* MWAppDelegate.m in Sources */,
 				209774D118C26159005B8C68 /* MWViewController.m in Sources */,
 				209774C718C26159005B8C68 /* main.m in Sources */,
+				209774F118C26B0B005B8C68 /* MWTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
